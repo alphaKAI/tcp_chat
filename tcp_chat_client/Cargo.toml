@@ -1,0 +1,11 @@
+[package]
+name = "tcp_chat_client"
+version = "0.1.0"
+authors = ["Akihiro Shoji <alpha.kai.net@alpha-kai-net.info>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tcp_chat_common = { version = "0.1.0", path = "../tcp_chat_common" }
+
